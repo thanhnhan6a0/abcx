@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Công ty Truyền thông NovaMedia</title>
+  <style>
+    :root {
+      --blue: #0f4c81;
+      --accent: #ffb703;
+      --light: #f7f9fc;
+      --text: #1f2933;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: "Segoe UI", Arial, sans-serif; color: var(--text); background: var(--light); line-height: 1.6; }
+    header { background: linear-gradient(120deg, var(--blue), #122b49); color: #fff; padding: 32px 16px; text-align: center; }
+    header h1 { font-size: 32px; margin-bottom: 8px; }
+    header p { opacity: 0.9; }
+    nav { background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,0.07); padding: 12px 16px; text-align: center; position: sticky; top: 0; z-index: 10; }
+    nav a { margin: 0 12px; text-decoration: none; color: var(--blue); font-weight: 600; }
+    nav a:hover { color: var(--accent); }
+    .container { max-width: 1080px; margin: 0 auto; padding: 32px 16px; }
+    section { margin-bottom: 48px; background: #fff; border-radius: 12px; padding: 24px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    h2 { color: var(--blue); margin-bottom: 12px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+    .card { border: 1px solid #e5e8ed; border-radius: 10px; padding: 16px; }
+    .card h3 { margin-bottom: 8px; color: #122b49; }
+    .hero-cta { margin-top: 16px; display: inline-block; background: var(--accent); color: #1a1a1a; padding: 10px 18px; border-radius: 8px; font-weight: 700; text-decoration: none; }
+    .hero-cta:hover { background: #ffca5c; }
+    footer { text-align: center; padding: 24px 16px 32px; color: #4b5563; }
+    @media (max-width: 640px) {
+      header h1 { font-size: 26px; }
+      nav { position: static; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NovaMedia</h1>
+    <p>Đối tác truyền thông chiến lược cho thương hiệu của bạn.</p>
+    <a class="hero-cta" href="#lien-he">Nhận tư vấn miễn phí</a>
+  </header>
+
+  <nav>
+    <a href="#gioi-thieu">Giới thiệu</a>
+    <a href="#dich-vu">Dịch vụ</a>
+    <a href="#du-an">Dự án</a>
+    <a href="#doi-tac">Đối tác</a>
+    <a href="#lien-he">Liên hệ</a>
+  </nav>
+
+  <main class="container">
+    <section id="gioi-thieu">
+      <h2>Về NovaMedia</h2>
+      <p>NovaMedia là công ty truyền thông chuyên về chiến lược thương hiệu, nội dung sáng tạo và chiến dịch đa kênh. Chúng tôi giúp doanh nghiệp kể câu chuyện khác biệt, chạm tới đúng khách hàng và tối ưu hiệu quả đầu tư.</p>
+    </section>
+
+    <section id="doi-tac">
+      <h2>Đối tác tiêu biểu</h2>
+      <p>Các công ty truyền thông cùng hợp tác trong những chiến dịch lớn.</p>
+      <div id="companies" class="grid"></div>
+      <p id="companies-status" aria-live="polite" style="margin-top:12px;color:#4b5563;"></p>
+    </section>
+
+    <section id="dich-vu">
+      <h2>Dịch vụ chính</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Chiến lược thương hiệu</h3>
+          <p>Xây dựng định vị, thông điệp và hệ thống nhận diện đồng nhất.</p>
+        </div>
+        <div class="card">
+          <h3>Sản xuất nội dung</h3>
+          <p>Video, bài viết, thiết kế sáng tạo phù hợp từng kênh.</p>
+        </div>
+        <div class="card">
+          <h3>Digital Marketing</h3>
+          <p>Quảng cáo đa nền tảng, tối ưu hiệu suất theo mục tiêu.</p>
+        </div>
+        <div class="card">
+          <h3>PR & Sự kiện</h3>
+          <p>Kết nối báo chí, KOLs và tổ chức sự kiện chuyên nghiệp.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="du-an">
+      <h2>Dự án tiêu biểu</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Chiến dịch ra mắt sản phẩm X</h3>
+          <p>Tăng 65% nhận diện thương hiệu sau 3 tháng.</p>
+        </div>
+        <div class="card">
+          <h3>Chuỗi video storytelling</h3>
+          <p>5 triệu lượt xem tự nhiên, nâng cao gắn kết cộng đồng.</p>
+        </div>
+        <div class="card">
+          <h3>Sự kiện họp báo Y</h3>
+          <p>50+ đầu báo tham dự, lan tỏa rộng rãi thông điệp.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="lien-he">
+      <h2>Liên hệ</h2>
+      <p>Email: contact@novamedia.vn</p>
+      <p>Hotline: 0900 123 456</p>
+      <p>Địa chỉ: 123 Đường Sáng Tạo, Quận 1, TP. HCM</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 NovaMedia. All rights reserved.
+  </footer>
+
+  <script>
+    // Dữ liệu công ty được nhúng trực tiếp trong HTML
+    const companiesData = [
+      { "name": "NovaMedia", "industry": "Truyền thông tích hợp", "location": "TP. HCM", "specialty": "Chiến lược thương hiệu & nội dung" },
+      { "name": "BrightWave Studio", "industry": "Sản xuất video", "location": "Hà Nội", "specialty": "TVC, Digital Content & motion graphics" },
+      { "name": "Pulse Digital", "industry": "Digital Marketing", "location": "Đà Nẵng", "specialty": "Hiệu suất quảng cáo đa nền tảng" },
+      { "name": "EchoPR", "industry": "PR & Quan hệ báo chí", "location": "TP. HCM", "specialty": "Sự kiện báo chí, KOLs, quản trị khủng hoảng" },
+      { "name": "Skyline Events", "industry": "Tổ chức sự kiện", "location": "Hà Nội", "specialty": "Hội nghị, triển lãm, activation" },
+      { "name": "BlueDot Content", "industry": "Sáng tạo nội dung", "location": "TP. HCM", "specialty": "Storytelling, podcast, blog chuyên sâu" },
+      { "name": "LiftUp Ads", "industry": "Hiệu suất quảng cáo", "location": "Hà Nội", "specialty": "Tối ưu chuyển đổi, remarketing" },
+      { "name": "NorthStar Branding", "industry": "Định vị thương hiệu", "location": "Đà Nẵng", "specialty": "Bộ nhận diện, guideline thương hiệu" },
+      { "name": "WaveSocial", "industry": "Social Media", "location": "TP. HCM", "specialty": "Quản trị cộng đồng, nội dung social" },
+      { "name": "GreenPulse Analytics", "industry": "Dữ liệu & đo lường", "location": "Hà Nội", "specialty": "Dashboard, báo cáo chiến dịch" }
+    ];
+
+    function loadCompanies() {
+      const list = document.getElementById('companies');
+      const status = document.getElementById('companies-status');
+      
+      if (companiesData && companiesData.length > 0) {
+        list.innerHTML = companiesData.map(c => `
+          <div class="card">
+            <h3>${c.name}</h3>
+            <p><strong>Lĩnh vực:</strong> ${c.industry}</p>
+            <p><strong>Địa điểm:</strong> ${c.location}</p>
+            <p><strong>Thế mạnh:</strong> ${c.specialty}</p>
+          </div>
+        `).join('');
+        status.textContent = `Đã hiển thị ${companiesData.length} công ty đối tác.`;
+      } else {
+        status.textContent = 'Không có dữ liệu công ty.';
+        list.innerHTML = '';
+      }
+    }
+    
+    document.addEventListener('DOMContentLoaded', loadCompanies);
+  </script>
+</body>
+</html>

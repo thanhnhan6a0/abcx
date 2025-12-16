@@ -1,0 +1,13 @@
+[
+  { "name": "NovaMedia", "industry": "Truyền thông tích hợp", "location": "TP. HCM", "specialty": "Chiến lược thương hiệu & nội dung" },
+  { "name": "BrightWave Studio", "industry": "Sản xuất video", "location": "Hà Nội", "specialty": "TV/ DigitalC, TVC & motion graphics" },
+  { "name": "Pulse Digital", "industry": "Digital Marketing", "location": "Đà Nẵng", "specialty": "Hiệu suất quảng cáo đa nền tảng" },
+  { "name": "EchoPR", "industry": "PR & Quan hệ báo chí", "location": "TP. HCM", "specialty": "Sự kiện báo chí, KOLs, quản trị khủng hoảng" },
+  { "name": "Skyline Events", "industry": "Tổ chức sự kiện", "location": "Hà Nội", "specialty": "Hội nghị, triển lãm, activation" },
+  { "name": "BlueDot Content", "industry": "Sáng tạo nội dung", "location": "TP. HCM", "specialty": "Storytelling, podcast, blog chuyên sâu" },
+  { "name": "LiftUp Ads", "industry": "Hiệu suất quảng cáo", "location": "Hà Nội", "specialty": "Tối ưu chuyển đổi, remarketing" },
+  { "name": "NorthStar Branding", "industry": "Định vị thương hiệu", "location": "Đà Nẵng", "specialty": "Bộ nhận diện, guideline thương hiệu" },
+  { "name": "WaveSocial", "industry": "Social Media", "location": "TP. HCM", "specialty": "Quản trị cộng đồng, nội dung social" },
+  { "name": "GreenPulse Analytics", "industry": "Dữ liệu & đo lường", "location": "Hà Nội", "specialty": "Dashboard, báo cáo chiến dịch" }
+]
+
